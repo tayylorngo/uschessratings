@@ -21,3 +21,5 @@ certain statistics in this order:
 
 If you don't have a specific ID number or are just testing the website,
 there is a link to a pdf with sample ID numbers you can try.
+
+Link to sample ID numbers: https://uschessratings.netlify.app/sampleIDNums.pdf
