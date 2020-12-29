@@ -1,4 +1,4 @@
-# uschessratings
+# US Chess Ratings
 
 Link to web app: https://uschessratings.netlify.app/
 
