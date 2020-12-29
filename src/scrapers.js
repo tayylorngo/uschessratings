@@ -1,13 +1,8 @@
 document.getElementById("myBtn").addEventListener("click", function(){
     let idNum = document.querySelector('#ID').value;
     let url = 'https://cors-anywhere.herokuapp.com/http://www.uschess.org/msa/MbrDtlMain.php?' + idNum;
-    let url2 = 'https://cors-anywhere.herokuapp.com/http://www.uschess.org/datapage/gamestats.php?memid=' + idNum;
-
-    let letsScrape = checkEasterEggs(idNum);
-
-    if(letsScrape){
-        scrape(url, url2, idNum);
-    }
+    let url2 = 'https://cors-anywhere.herokuapp.com/http://www.uschess.org/datapage/gamestats.php?memid=' + idNum;  
+    scrape(url, url2, idNum);
 });
 
 document.getElementById('myForm').addEventListener('submit', function(e) {
@@ -108,38 +103,4 @@ function getRecord(recordHTML){
     games = games.substring(0, games.length - (wins.length + draws.length + losses.length));
 
     return [games, wins, draws, losses];
-}
-
-function justin(){
-    document.querySelector("#name").innerHTML = "Name: JUSTIN ZHU";
-    document.querySelector("#rating").innerHTML = "Rating: 2933";
-    document.querySelector('#idNum').innerHTML = "ID: 69420420";
-    document.querySelector("#games").innerHTML = "Games Played: 2678";
-    document.querySelector("#wins").innerHTML = "Wins: 2678";
-    document.querySelector("#draws").innerHTML = "Draws: 0";
-    document.querySelector("#losses").innerHTML = "Losses: 0";
-    document.querySelector("#winRate").innerHTML = "Win Rate: 100%";
-    document.querySelector("#drawRate").innerHTML = "Draw Rate: 0%";
-    document.querySelector("#lossRate").innerHTML = "Loss Rate: 0%";
-    document.querySelector(".bg-success").style.width = "100%";
-    document.querySelector(".bg-warning").style.width = "0%";
-    document.querySelector(".bg-danger").style.width = "0%";
-}
-
-function rickRoll(idNum){
-    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-}
-
-function checkEasterEggs(idNum) {
-    if(idNum === '69420420'){
-        justin();
-        return false;
-    }
-    else if(idNum === '15797543'){
-        rickRoll();
-        return false;
-    }
-    else{
-        return true;
-    }
 }
