@@ -1,6 +1,7 @@
 # US Chess Ratings
 
 Link: https://uschessratings.netlify.app/
+Link to demo gif: https://gyazo.com/f5f5f38831a786b64fcd8f19805593f3
 
 This is a JavaScript built web scraper aimed at gathering player statistics from
 the United States Chess Federation and displaying it in a more modern appearance.
