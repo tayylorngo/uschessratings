@@ -2,7 +2,9 @@
 
 Link: https://uschessratings.netlify.app/
 
-Link to demo gif: https://gyazo.com/f5f5f38831a786b64fcd8f19805593f3
+Demo gif: https://gyazo.com/f5f5f38831a786b64fcd8f19805593f3
+
+Demo gif2: https://gyazo.com/bf08bb6025e5ee52a1ea4b04a592c3fb
 
 This is a JavaScript built web scraper aimed at gathering player statistics from
 the United States Chess Federation and displaying it in a more modern appearance.
