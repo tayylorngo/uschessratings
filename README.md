@@ -1,9 +1,9 @@
 # US Chess Ratings
 
-Link to web app: https://uschessratings.netlify.app/
+Link: https://uschessratings.netlify.app/
 
 This is a JavaScript built web scraper aimed at gathering player statistics from
-the United States Chess Federation and displaying it in a more modern apperance.
+the United States Chess Federation and displaying it in a more modern appearance.
 
 To use, you can enter your player ID number and hit search where you will then see
 certain statistics in this order:
@@ -18,3 +18,6 @@ certain statistics in this order:
 8. Win Percentage
 9. Draw Percentage
 10. Loss Percentage
+
+If you don't have a specific ID number or are just testing the website,
+there is a link to a pdf with sample ID numbers you can try.
